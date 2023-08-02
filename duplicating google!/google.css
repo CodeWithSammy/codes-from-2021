@@ -1,0 +1,84 @@
+html
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    background: beige;
+}
+.tab
+{
+    position: absolute;
+    background: rgba(20, 20, 20, 0.911);
+    height: 45px;
+    width: 1550px;
+    font-family: Cambria, Cochin, 'Georgia', Times, 'Times New Roman, serif;
+}
+.newtab1
+{
+    position: absolute;
+    background: rgba(20, 20, 20, 0.788);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 30px;
+    width:120px;
+    top: 15px;
+    left: 5px;
+}
+.newtab2
+{
+    position: absolute;
+    background: rgba(20, 20, 20, 0.788);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 30px;
+    width:120px;
+    top: 15px;
+    left: 130px;
+}
+.newtab3
+{
+    position: absolute;
+    background: rgba(20, 20, 20, 0.788);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 30px;
+    width:120px;
+    top: 15px;
+    left: 257px;
+}
+.newtab4
+{
+    position: absolute;
+    background: rgba(20, 20, 20, 0.788);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 30px;
+    width:120px;
+    top: 15px;
+    left: 383px;
+}
+.tablink
+{
+    position: absolute;
+    top: 5px;
+    left: 6px;
+    color: blanchedalmond;
+    text-decoration: none;
+}
+.cancel
+{
+    position: absolute;
+    top: 5px;
+    left: 80px;
+}
+.toprightcornericons
+{
+    position: absolute;
+    top: 5px;
+    left: 1000px;
+}

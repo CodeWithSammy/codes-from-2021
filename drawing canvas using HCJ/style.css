@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #2f83ba;
+}
+.container {
+    display: flex;
+    width: 100%;
+    gap: 0.7rem;
+    padding: 0.8rem;
+    max-width: 1050px;
+}
+section {
+    background: #fff;
+    border-radius: 0.5rem;
+}
+.drawing-board{
+    flex: 1;
+}

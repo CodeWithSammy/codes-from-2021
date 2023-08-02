@@ -1,0 +1,5 @@
+{
+    "html.format.wrapLineLength": 50,
+    "diffEditor.wordWrap": "on",
+    "editor.accessibilitySupport": "on"
+}

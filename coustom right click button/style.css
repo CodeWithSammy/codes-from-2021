@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Popins:wght@400;500;600;700&display=swap'); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Popins',sans-serif;
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(#8d79b1 0%, #222855 100%);
+}
+.wrapper{
+    position: absolute;
+    visibility: hidden;
+    width: 300px;
+    background: #fff;
+    border-radius: 10px;
+}
+.wrapper .menu{
+    padding: 10px 20px;
+}
+.content .item{
+    list-style: none;
+    font-size: 22px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    display: flex;
+    align-items: center;
+    padding: 0 5px 0 10px;
+    cursor: pointer;
+}
+.content .item:hover{
+    background: #f2f2f2;
+}
+.content .item span{
+    font-size: 19px;
+    margin-left: 8px;
+}
+.content .settings {
+    display: flex;
+    margin-top: -5px;
+    padding: 5px 12px;
+    border-top: 1px solid #ccc;
+}
+.content .share{
+    position: relative;
+    justify-content: space-between;
+}
+.share .share-menu{
+    position: absolute;
+    background: #fff;
+    width: 200px;
+    right: -200px;
+    top: -35px;
+    padding: 13px;
+    border-radius: 10px;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.2s ease;
+}
+.share:hover .share-menu{
+    opacity: 1;
+    pointer-events: auto;
+}

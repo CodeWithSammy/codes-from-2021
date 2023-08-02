@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=KoHo:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lemonada&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    font-family: "KoHo", sans-serif;
+    justify-content: space-around;
+}
+.container_title {
+  position: relative;
+  padding: 2rem;
+  background: rgb(148, 218, 130);
+}
+.title {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.07rem;
+  font-family: "Lemonada", cursive;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  background: rgba(76, 192, 148, 0.534);
+  border: 2px solid white;
+  border-radius: 12px;
+  top: -35px;
+  padding: 1.2vh;
+  margin: 3vw;
+  font-size: 1.1rem;
+  font-family: "KoHo", sans-serif;
+  justify-content: space-around;
+}
+a {
+  text-decoration: none;
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  background: rgb(133, 77, 77);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.2vh;
+  margin: 0 5vw 0;
+  top: -15px;
+  min-height: 30vh;
+  border-radius: 1rem;
+}
+.card_title {
+  position: absolute;
+  top: 1rem;
+  background: gray;
+  font-size: 20px;
+}
+.card_content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  
+}
+.expand_btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    padding:  0.7em ;
+    margin: 1rem;
+    width: 30vw;
+      
+}
